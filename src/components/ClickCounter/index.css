@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.click-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #2d3a35;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.click-me-button {
+  background-color: #007bff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.span-element {
+  color: #c20a72;
+  font-weight: bold;
+}
